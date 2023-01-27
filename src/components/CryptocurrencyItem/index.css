@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.coin-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 19px;
+  margin-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.coin-img-container {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  width: 150px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 195px;
+  justify-content: space-between;
+}
+
+.img-size {
+  height: 25px;
+  width: 25px;
+}
+
+.title-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.count_1 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.count_2 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+}

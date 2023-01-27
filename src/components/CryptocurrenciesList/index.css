@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.Cryptocurrencies-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-color: aliceblue;
+}
+
+.Cryptocurrency-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #092e33;
+}
+
+.cryptocurrency-img-size {
+  width: 100%;
+}

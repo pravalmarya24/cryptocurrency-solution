@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.Cryptocurrency-Tracker-bg-container {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.Cryptocurrencies-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-color: aliceblue;
+}
+
+.Cryptocurrency-heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 500;
+  color: #00e7ff;
+}
+
+.cryptocurrency-img-size {
+  height: 290px;
+  width: 790px;
+}
+
+.cryptoItem-container {
+  border-radius: 12px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #00e7ff;
+  height: 235px;
+  width: 868px;
+}
+
+.heading-container {
+  background-color: #092e33;
+  border-radius: 3px;
+  height: 35px;
+  width: 860px;
+  border-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px;
+}
+
+.coin-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.usd-euro-name-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 176px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.usd-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 0;
+}
+
+.euro-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 15px;
+}
+
+.unorderedList {
+  padding-left: 0;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 167px;
+}
